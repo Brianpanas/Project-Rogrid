@@ -1,0 +1,147 @@
+/***********************************************************************************************************************************************************************************************************/
+/*Import Mixins*/
+/*Import Mixins*/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/*Root*/
+:root {
+  --bg-dark: #0d1117;
+  /* Primary dark background color */
+  --bg-dark-alt: #161b22;
+  /* Lighter dark background, used for secondary elements */
+  --bg-highlight: #f0b90b;
+  /* Yellow highlight color for active states or focus */
+  --text-light: #9ba3af;
+  /* Light gray text color for general text */
+  --text-dark: #fff;
+  /* White text color for high-contrast areas */
+  --border-color: #333;
+  /* Default dark gray border color */
+  --border-hover: #f0b90b;
+  /* Yellow border color on hover or focus */
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Subtle shadow for depth on elements */ }
+
+/*Root*/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/*General*/
+.testwrap {
+  position: absolute;
+  width: 370px; }
+
+.trade-box {
+  background-color: var(--bg-dark-alt);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  position: relative; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--border-color); }
+
+.tab {
+  margin-right: 15px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: var(--text-light);
+  font-size: 14px; }
+
+.tab.active {
+  color: var(--text-dark);
+  border-bottom: 2px solid var(--bg-highlight); }
+
+/* Input box style */
+.input-group {
+  margin-bottom: 12px; }
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 13px;
+  color: var(--text-light);
+  transition: border-color 0.2s ease; }
+
+/* Hover and focus states - Apply yellow border to .input-box */
+.input-box:hover,
+.input-box:focus-within {
+  border: 1px solid var(--bg-highlight); }
+
+/* Make input 100% width */
+.input-value input {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text-dark);
+  font-size: 14px;
+  text-align: right;
+  padding: 4px 0; }
+
+/* Always show arrows */
+.input-value input::-webkit-outer-spin-button,
+.input-value input::-webkit-inner-spin-button {
+  opacity: 1;
+  display: block;
+  -webkit-appearance: inner-spin-button !important;
+  margin-left: 10px; }
+
+.currency {
+  margin-left: 6px;
+  font-size: 12px;
+  color: var(--text-light);
+  white-space: nowrap; }
+
+/* Slider */
+.slider {
+  width: 100%;
+  margin: 12px 0; }
+
+/* Total box */
+.total-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 13px;
+  color: var(--text-light);
+  transition: border-color 0.2s ease; }
+
+/* Hover and focus states - Apply yellow border to .total-box */
+.total-box:hover,
+.total-box:focus-within {
+  border: 1px solid var(--bg-highlight); }
+
+.total-box span {
+  color: var(--text-dark); }
+
+/*General*/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/*Media Queries*/
+/***********************************************************************************************************************************************************************************************************/
+/*Mobile*/
+/*Mobile*/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/*Tablet*/
+/*Tablet*/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/*PC*/
+/*PC*/
+/***********************************************************************************************************************************************************************************************************/
+/*Media Queries*/
+/***********************************************************************************************************************************************************************************************************/
+
+/*# sourceMappingURL=Page_Input%20Price%20RB.css.map */
